@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model 2</title>
+    <link rel="stylesheet" type="text/css" href="model2_styles.css">
+    <script src="model2.js"></script>
+</head>
+
+
+<body>
+
+<header>
+    <div class="header">
+        <div class="left">
+            <button class="button home" onclick="window.location.href='index.html'">Home</button>
+        </div>
+        <h1>Model 2</h1>
+    </div>
+    <div class="yellow"></div>
+</header>
+
+<div id="variables">
+    <br>
+
+    <form id="grid_size">
+        <label> R number: </label>
+        <input type="number" id="R_number" min=""><br><br>
+    </form>
+    <br>
+    <button class="button button1" onclick="test()">Start</button>
+    <br><br>
+    <button class="button button1" onclick="window.location.href='model2.html'">Reset</button>
+    <br>
+
+</div>
+
+<canvas id="myCanvas" width="800" height="400" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML canvas tag.</canvas>
+
+</body>
+</html>

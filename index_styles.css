@@ -1,0 +1,49 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #313131;
+    color: white;
+    font-size: 30px;
+    font-family: "Franklin Gothic Book";
+}
+
+body {
+    background-color: #f9fafc;
+}
+
+.yellow {
+    background-color: #fbb901;
+    padding: 15px 32px;
+}
+
+.buttons{
+    margin: auto;
+    width: 77%;
+    padding: 10px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    height: 256px;
+    width: 512px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 20px 100px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #e3e4e6;
+    color: black;
+    border: 3px solid #313131;
+}
+
+.button1:hover {
+    background-color: #313131;
+    color: white;
+}
