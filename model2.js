@@ -1,5 +1,4 @@
 function test(){
-    alert('hi');
     let c = document.getElementById("myCanvas");
     let R = document.getElementById("R_number").value;
     let y=1;

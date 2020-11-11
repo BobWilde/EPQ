@@ -43,6 +43,23 @@
     color: black;
 }
 
+.button1 {
+    margin: 0px 10px;
+    padding: 10px 18px;
+    background-color: #e3e4e6;
+    color: black;
+    border: 2px solid #313131;
+    font-family: "Arial";
+    font-size: 20px;
+}
+
+.button1:hover {
+    margin: 0px 10px;
+    padding: 10px 18px;
+    background-color: #313131;
+    color: white;
+}
+
 #variables {
     background-color: #e3e4e6;
     position: absolute;
